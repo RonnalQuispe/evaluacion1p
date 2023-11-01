@@ -6,7 +6,7 @@ int main(void)
     printf("Ingrese el valor de X\n ");
     scanf("%d", &x);
 
-    while (x <= 0)
+    while (x <= 0)//condicion que pide numero mayor a 0//
     {
         printf("El numero debe ser mayor a cero, ingrese nuevamente el numero:");
         scanf("%d/n", &x);
