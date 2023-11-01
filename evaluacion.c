@@ -17,6 +17,10 @@ int main(void){
     {
         printf("La funcion cuando x=%d es: -x^2+4\n ", x);
     }
+     if (x>4)
+    {
+        printf("La funcion cuando x=%d es: x+4\n ", x);
+    }
     
     
     
